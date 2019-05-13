@@ -1,7 +1,8 @@
 class NrelService
 
   def initialize(zip)
-    require 'pry'; binding.pry
+    @zip = zip
+    conn = Faraday.new()
   end
 
 
