@@ -1,0 +1,10 @@
+<h1>Results go here</h1>
+
+<section class='stations'>
+  <% facade.close_stations.each do |station| %>
+    <div class ='station'>
+      <%= require 'pry'; binding.pry %>
+      <%= station.name %>
+    </div>
+  <% end %>
+</section>
