@@ -6,7 +6,7 @@ class NrelFacade
 
   def close_stations
     stations = NrelService.new(@zip)
-    require 'pry'; binding.pry
+    # require 'pry'; binding.pry
   end
 
 end
